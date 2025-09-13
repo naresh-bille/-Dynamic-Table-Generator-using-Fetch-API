@@ -46,7 +46,7 @@ function printdata(data){
 
 async function getdata() {
     try {
-   let response=  await fetch('http://localhost:3000/data')
+   let response=  await fetch('https://fakestoreapi.com/products')
         if(!response.ok){
             throw new Error('Network response was not ok');
         }

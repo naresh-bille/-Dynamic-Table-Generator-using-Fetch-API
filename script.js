@@ -60,4 +60,4 @@ async function getdata() {
 
 }
 getdata()
-document.body.appendChild(table);
+// document.body.appendChild(table);

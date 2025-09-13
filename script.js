@@ -51,7 +51,7 @@ async function getdata() {
             throw new Error('Network response was not ok');
         }
         let data= await response.json() 
-        console.log(data)
+        // console.log(data)
         printdata(data)
     } catch (error) {
         console.log('There has been a problem with your fetch operation:', error);
